@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\pedro\Git\fiap\expense_tracker_fiap\build\windows\CMakeFiles\c0e1247d00b3d3de948c9ab5a06cbdf4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E495292A-5AA4-3602-B4B9-2A811552F615}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

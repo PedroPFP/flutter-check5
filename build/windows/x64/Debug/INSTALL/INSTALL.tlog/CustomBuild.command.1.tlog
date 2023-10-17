@@ -1,0 +1,10 @@
+^C:\USERS\PEDRO\GIT\FIAP\EXPENSE_TRACKER_FIAP\BUILD\WINDOWS\CMAKEFILES\F2EB025E64678BF9B299E8CCBC2B115A\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

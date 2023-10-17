@@ -1,0 +1,16 @@
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/CMakeFiles/INSTALL.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/CMakeFiles/ALL_BUILD.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/CMakeFiles/ZERO_CHECK.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/flutter/CMakeFiles/INSTALL.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/runner/CMakeFiles/expense_tracker.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/runner/CMakeFiles/INSTALL.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/runner/CMakeFiles/ALL_BUILD.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/plugins/app_links/CMakeFiles/app_links_plugin.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/plugins/app_links/CMakeFiles/INSTALL.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/plugins/app_links/CMakeFiles/ALL_BUILD.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/plugins/url_launcher_windows/CMakeFiles/url_launcher_windows_plugin.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/plugins/url_launcher_windows/CMakeFiles/INSTALL.dir
+C:/Users/pedro/Git/fiap/expense_tracker_fiap/build/windows/plugins/url_launcher_windows/CMakeFiles/ALL_BUILD.dir
