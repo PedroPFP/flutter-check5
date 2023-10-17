@@ -11,12 +11,17 @@ class FiiItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      leading: CircleAvatar(      
-        child: Text(fii.sigla)
+      leading: CircleAvatar(
+        backgroundColor: Colors.amber,
+        child: Icon(
+          Icons.attach_money,
+          size: 20,
+          color: Colors.white,
+        ),
       ),
-      title: Text(fii.cotacao.toString()),
-      subtitle: Text(fii.qnt.toString()),
-      trailing: Text(fii.rendimentoAnual.toString()),
+      title: Text(fii.sigla.toString()),
+      subtitle: Text(fii.cotacao.toString()+" - "+ fii.qnt.toString()),
+      trailing: Text(fii.rendimentoAnual.toString()+"%"),
       onTap: onTap,
     );
   }

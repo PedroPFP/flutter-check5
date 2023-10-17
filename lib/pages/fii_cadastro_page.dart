@@ -106,7 +106,7 @@ class _FiiCadastroPageState extends State<FiiCadastroPage> {
       decoration: const InputDecoration(
         hintText: 'Informe a cotação',
         labelText: 'Cotação',
-        prefixIcon: Icon(Ionicons.text_outline),
+        prefixIcon: Icon(Icons.attach_money),
         border: OutlineInputBorder(),
       ),
       validator: (value) {
@@ -125,7 +125,7 @@ class _FiiCadastroPageState extends State<FiiCadastroPage> {
       decoration: const InputDecoration(
         hintText: 'Informe a quantidade',
         labelText: 'Quantidade',
-        prefixIcon: Icon(Ionicons.text_outline),
+        prefixIcon: Icon(Icons.format_list_numbered),
         border: OutlineInputBorder(),
       ),
       validator: (value) {
