@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:expense_tracker/pages/categorias_page.dart';
 import 'package:expense_tracker/pages/contas_page.dart';
 import 'package:expense_tracker/pages/dashboard_page.dart';
@@ -54,28 +55,30 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget getFooter() {
-    List<BottomNavigationBarItem> items = const [
-      BottomNavigationBarItem(
+    List<BottomNavyBarItem> items = [
+      BottomNavyBarItem(
         icon: Icon(Ionicons.bar_chart_outline),
-        label: 'Dashboard',
+        title: Text('Dashboard'),
       ),
-      BottomNavigationBarItem(
+      BottomNavyBarItem(
         icon: Icon(Ionicons.swap_horizontal_outline),
-        label: 'Transações',
+        title: Text('Transações'),
       ),
-      BottomNavigationBarItem(
-          icon: Icon(Ionicons.wallet_outline), label: 'Contas'),
-      BottomNavigationBarItem(
-          icon: Icon(Ionicons.list_outline), label: 'Categorias'),
-      BottomNavigationBarItem(
-          icon: Icon(Ionicons.bar_chart), label: 'Ações/Fiis'),
+      BottomNavyBarItem(
+          icon: Icon(Ionicons.wallet_outline), title: Text('Contas')),
+      BottomNavyBarItem(
+          icon: Icon(Ionicons.list_outline), title: Text('Categorias')),
+      BottomNavyBarItem(
+          icon: Icon(Ionicons.bar_chart), title: Text('Ações/Fiis')),
     ];
 
-    return BottomNavigationBar(
+    return BottomNavyBar(
       items: items,
-      type: BottomNavigationBarType.fixed,
-      currentIndex: pageIndex,
-      onTap: (index) {
+        selectedIndex: pageIndex,
+        showElevation: true,
+        itemCornerRadius: 24,
+        curve: Curves.easeIn,
+      onItemSelected: (index) {
         setState(() {
           pageIndex = index;
         });
